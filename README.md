@@ -2,9 +2,12 @@
 
 Un radar qui n'émet rien : il écoute un émetteur de télévision (DVB-T, 569 MHz) et détecte les échos que ce signal renvoie sur les avions. Récepteur cohérent à 5 voies, une antenne de référence et 4 antennes de surveillance, traitement sur Raspberry Pi 5.
 
-![Carte distance-Doppler simulée, trois cibles détectées avec leur angle](docs/img/carte_distance_doppler.png)
+<p align="center">
+  <img src="docs/photos/krakensdr_raspberry_pi5.jpg" width="47%" alt="KrakenSDR et Raspberry Pi 5 fixés au mât, 5 câbles d'antenne">
+  <img src="docs/img/carte_distance_doppler.png" width="51%" alt="Carte distance-Doppler simulée, trois cibles détectées avec leur angle">
+</p>
 
-*Carte distance-Doppler en simulation : trois cibles, 50 à 56 dB sous le trajet direct, retrouvées en distance, en vitesse et en angle.*
+*À gauche, le KrakenSDR et le Raspberry Pi 5 fixés au mât, avec les 5 voies câblées. À droite, une carte distance-Doppler en simulation : trois cibles, 50 à 56 dB sous le trajet direct, retrouvées en distance, en vitesse et en angle.*
 
 | | |
 |---|---|
@@ -12,6 +15,18 @@ Un radar qui n'émet rien : il écoute un émetteur de télévision (DVB-T, 569 
 | Matériel | KrakenSDR (5 tuners RTL-SDR cohérents), Raspberry Pi 5, antenne Yagi UHF, 4 antennes fouet |
 | Logiciel | Python, NumPy, Numba, pyFFTW, Dash ; base : radar passif open source de KrakenRF (2 voies) |
 | Code | privé, disponible sur demande |
+
+## Le système réel
+
+<p align="center">
+  <img src="docs/photos/vignette_mat_complet.jpg" width="32%" alt="Le mât sur son pied, antenne Yagi en haut">
+  <img src="docs/photos/vignette_antenne_reference_yagi.jpg" width="32%" alt="Antennes directives en haut du mât">
+  <img src="docs/photos/vignette_placement_antenne_gabarit.jpg" width="32%" alt="Une antenne posée sur sa marque d'un gabarit imprimé">
+</p>
+
+*De gauche à droite : le mât sur son pied ; les antennes directives en haut du mât ; chaque antenne posée sur sa marque d'un gabarit imprimé, pour que l'espacement entre antennes soit celui utilisé dans les calculs d'angle.*
+
+Le tout tient sur un pied, alimenté par une batterie 65 W fixée au mât. [Toutes les photos du montage](docs/photos/README.md)
 
 ## Le principe
 
