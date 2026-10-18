@@ -56,7 +56,7 @@ Le radar de KrakenRF ne gère que 2 voies et ne donne pas d'angle. Je l'ai éten
 - **direction d'arrivée** : Capon appliqué à un seul instantané se réduit à Bartlett. La matrice de covariance est maintenant estimée sur plusieurs blocs et cellules voisines, avec choix de la méthode ;
 - simulateur hors ligne, tests automatisés et installation sur Raspberry Pi 5.
 
-L'audit et une partie du code ont été faits avec l'aide d'un assistant IA ; la mise en œuvre et la validation sur le matériel sont les miennes.
+
 
 ## Résultats
 
