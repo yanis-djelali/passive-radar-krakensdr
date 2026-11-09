@@ -85,8 +85,6 @@ Avec MUSIC, les pics de direction font moins de 2° de large :
 ## Pour aller plus loin
 
 - [Rapport technique, 3 pages](docs/rapport_technique.pdf)
-- [Les mathématiques du radar et leur correspondance avec le code](docs/maths_et_code.pdf)
-- [De la phase à l'angle d'arrivée, pas à pas](docs/direction_par_la_phase.pdf)
 
 ## Limites
 
